@@ -2,9 +2,6 @@
 MYDAILYWORK - Data Science Internship
 Task 1: Titanic Survival Prediction
 
-Run:  python titanic_survival.py
-Needs: Titanic_Survival_Prediction.csv in the same folder
-Install: pip install pandas numpy matplotlib seaborn scikit-learn joblib
 """
 
 import warnings
@@ -38,9 +35,7 @@ sns.set_theme(style="whitegrid")
 
 # 1. Loading the Data
 df = pd.read_csv(DATA_FILE)
-print("=" * 60)
-print("1. DATA OVERVIEW")
-print("=" * 60)
+print("1. Data Overview")
 print("Shape:", df.shape)
 print("\nFirst 5 rows:\n", df.head())
 print("\nMissing values:\n", df.isna().sum()[df.isna().sum() > 0])
@@ -145,9 +140,7 @@ models = {
     "Gradient Boosting": GradientBoostingClassifier(random_state=RANDOM_STATE),
 }
 
-print("\n" + "=" * 60)
-print("2. MODEL COMPARISON (5-fold cross-validation on training set)")
-print("=" * 60)
+print("2. Model Comparison (5-fold cross-validation on training set)")
 cv = StratifiedKFold(n_splits=5, shuffle=True, random_state=RANDOM_STATE)
 cv_scores = {}
 for name, clf in models.items():
@@ -164,9 +157,7 @@ best_pipe = Pipeline([("prep", preprocessor), ("model", models[best_name])])
 best_pipe.fit(X_train, y_train)
 y_pred = best_pipe.predict(X_test)
 
-print("\n" + "=" * 60)
-print(f"3. TEST SET RESULTS ({best_name})")
-print("=" * 60)
+print(f"3. Test Set Results ({best_name})")
 print(f"Accuracy : {accuracy_score(y_test, y_pred):.4f}")
 print(f"Precision: {precision_score(y_test, y_pred):.4f}")
 print(f"Recall   : {recall_score(y_test, y_pred):.4f}")
