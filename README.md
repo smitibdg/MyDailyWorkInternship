@@ -41,7 +41,7 @@ Every project has a **step-by-step Jupyter notebook** (one small step per cell) 
 
 | Task | Video |
 |------|-------|
-| 1 - Titanic | [▶ Watch on LinkedIn]([PASTE_LINKEDIN_URL_1](https://www.linkedin.com/feed/update/urn:li:activity:7526963211229609985/)) |
+| 1 - Titanic | [▶ Watch on LinkedIn]([https://www.linkedin.com/feed/update/urn:li:activity:7526963211229609985/]) |
 | 2 - Movie Rating | [▶ Watch on LinkedIn](PASTE_LINKEDIN_URL_2) |
 | 3 - Iris | [▶ Watch on LinkedIn](PASTE_LINKEDIN_URL_3) |
 | 4 - Sales | [▶ Watch on LinkedIn](PASTE_LINKEDIN_URL_4) |
