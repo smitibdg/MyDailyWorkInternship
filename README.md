@@ -65,7 +65,7 @@ MYDAILYWORK/
 ├── Task2_Movie_Rating/
 │   ├── Movie_Rating_Prediction.ipynb
 │   ├── IMDb Movies India.csv
-│   └── app.py                      # dataset: "IMDb Movies India.csv" (download, see below)
+│   └── app.py
 │
 ├── Task3_Iris/
 │   ├── Iris_Flower_Classification.ipynb
@@ -75,12 +75,12 @@ MYDAILYWORK/
 ├── Task4_Sales/
 │   ├── Sales_Prediction.ipynb
 │   ├── advertising.csv
-│   └── app.py                      # dataset: "Advertising.csv" (download, see below)
+│   └── app.py
 │
 └── Task5_Fraud/
     ├── Credit_Card_Fraud_Detection.ipynb
     ├── creditcard.csv
-    └── app.py                      # dataset: "creditcard.csv" (150 MB, download, see below)
+    └── app.py
 ```
 
 ---
@@ -104,10 +104,10 @@ Put each file inside its task folder.
 | Task | File name | Where to get it |
 |------|-----------|-----------------|
 | 1 | `Titanic_Survival_Prediction.csv` | Included in this repo |
-| 2 | `IMDb Movies India.csv` | Link given in the internship task sheet (Kaggle "IMDb Movies India") |
+| 2 | `IMDb Movies India.csv` | Included in this repo |
 | 3 | `iris.csv` | Included. The notebook also creates it from scikit-learn |
-| 4 | `Advertising.csv` | Link given in the internship task sheet (Kaggle "Advertising") |
-| 5 | `creditcard.csv` | Link given in the internship task sheet (Kaggle "Credit Card Fraud Detection") |
+| 4 | `Advertising.csv` | Included in this repo |
+| 5 | `creditcard.csv` | Included in this repo |
 
 > ⚠️ `creditcard.csv` is about 150 MB, which is above GitHub's 100 MB limit, so it is listed in `.gitignore`. Download it from Kaggle yourself.
 
@@ -191,9 +191,9 @@ The app opens at `http://localhost:8501`.
 
 ## 👤 Author
 **Your Name**
-- LinkedIn: [linkedin.com/in/your-profile](https://www.linkedin.com/in/your-profile)
-- GitHub: [@your-username](https://github.com/your-username)
-- Email: your.email@example.com
+- LinkedIn: [linkedin.com/in/your-profile](https://www.linkedin.com/in/smitibdg/)
+- GitHub: [@your-username](https://github.com/smitibdg)
+- Email: smiitibaadugu@gmail.com
 
 🙏 Thanks to **[MyDailyWork](https://www.mydailywork.com)** for the internship and the project ideas.
 
