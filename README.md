@@ -191,8 +191,8 @@ The app opens at `http://localhost:8501`.
 
 ## 👤 Author
 **Your Name**
-- LinkedIn: [linkedin.com/in/your-profile](https://www.linkedin.com/in/smitibdg/)
-- GitHub: [@your-username](https://github.com/smitibdg)
+- LinkedIn: [My Linkedin Profile](https://www.linkedin.com/in/smitibdg/)
+- GitHub: [My Github Profile](https://github.com/smitibdg)
 - Email: smiitibaadugu@gmail.com
 
 🙏 Thanks to **[MyDailyWork](https://www.mydailywork.com)** for the internship and the project ideas.
